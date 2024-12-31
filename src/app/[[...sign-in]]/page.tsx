@@ -27,9 +27,9 @@ const LoginPage = () => {
           name="start"
           className="bg-white p-12 rounded-md shadow-2xl flex flex-col gap-2"
         >
-          <h1 className="text-xl font-bold flex items-center gap-2">
-            <Image src="/logo.png" alt="" width={24} height={24} />
-            SchooLama
+          <h1 className="text-xl font-bold flex items-center justify-center gap-2">
+            <Image src="/logo.png" alt="" width={120} height={120} />
+            {/* Pascal info */}
           </h1>
           <h2 className="text-gray-400">Sign in to your account</h2>
           <Clerk.GlobalError className="text-sm text-red-400" />
